@@ -1,0 +1,83 @@
+body {
+  background-image: url("bg1.png");
+  color:white;
+  font-family: "sans-serif";
+  
+
+}
+h1{
+	color:white;
+	text-align:center;
+	padding: 10px;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+img{
+	width: 80%;
+	border-radius: 1%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#name{
+	text-align:center;
+	font-size:200%;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+
+tr:nth-child(odd) {
+  background-color: #333399;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+tr, td {
+  text-align: left;
+  padding: 16px;
+}
+.myDiv {
+  border: 2px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #00334d;
+  background-color:#001a33;
+  
+}
+a, a:active, a:visited { 
+	color: #ccccff; 
+	text-decoration:none; 
+}
+
+a:hover {
+  color: #00cc99;
+}
+
+hr.rounded {
+ border-top: 3px solid #bbb;
+}
+
+#table{
+	text-align:center;
+}
+
+h2{
+	color: #99bbff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-weight:bold;
+}
+
+#welcome{
+	font-size:300%;
+	
+}
+
+span{
+	color:red;
+	font-weight:bold;
+}
